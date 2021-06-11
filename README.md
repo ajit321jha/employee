@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0-next.4.
 
-This is a Employee Managment Project on Angular.
+This is a Employee Managment System Project on Angular.
 
 ## Development server
 
