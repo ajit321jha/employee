@@ -1,13 +1,11 @@
-<h1>Admin</h1>
+<app-header></app-header>
+<mat-toolbar color="primary" class="app-header">
+  <div><a href="#" target="_blank" class="positronx">Ogma Conception</a></div>
+  <span class="nav-tool-items">
+    <a mat-button routerLink="signin" routerLinkActive="active">Signin</a>
+    <a mat-button mat-raised-button routerLink="register" routerLinkActive="active">Signup</a>
+  </span>
+</mat-toolbar>
 
-<ul>
-  <li><a routerLink="admin/login">Login</a></li>
-  <li><a routerLink="admin/list">List</a></li>
-</ul>
 
-<h1>User</h1>
-<ul>
-  <li><a routerLink="user/login">Login</a></li>
-  <li><a routerLink="user/signup">Sign up</a></li>
-</ul>
 <router-outlet></router-outlet>
